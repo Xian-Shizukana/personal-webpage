@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contacts</title>
+    <style>
+        #submit-button{
+            background-color: #a6e3a1;
+            border-color: white;
+            width: 20%;
+            min-height: 30px;
+            font-size: 1em;
+        }
+
+        .c-form{
+            background-color: #1e1e2e;
+            width: 50%;
+            margin:auto;
+            padding: 20px;
+            border-radius: 35px;
+        }
+
+        .c-form label{
+            font-size: 1.5em;
+        }
+
+        .c-form input, textarea{
+            background-color: #f38ba8;
+            width: 90%;
+            min-height: 100px;
+            margin: 20px 0px;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body style="background-color: #11111b; color: #f5c2e7; text-align: center;">
+    <div class="main-container">
+        <ul class="nav-bar">
+            <li class="nav-bar"><a href="index.html" class="nav-bar">Home</a></li>
+            <li class="nav-bar"><a href="about.html" class="nav-bar">About</a></li>
+            <li class="nav-bar"><a href="contacts.html" class="nav-bar">Contacts</a></li>
+        </ul>
+        
+        <h1>Contacts</h1>
+        <p>Use these information to contact me!</p>
+
+        <h2>Phone & Email</h2>
+        <p>09171867434 // sean.calaoagan@ciit.edu.ph</p>
+
+        <h2>Contact Form</h2>
+        <form class="c-form">
+            <label>Name:</label><br>
+            <input type="text"><br>
+            <label>Message:</label><br>
+            <textarea>Feel free to say something about me :D</textarea> <br>
+            <input type="submit" id="submit-button">
+        </form>
+    </div>
+</body>
+</html>
